@@ -1,13 +1,12 @@
 'use client';
 
-import { useState, useMemo, useCallback, useEffect } from 'react';
+import { useState, useMemo, useCallback } from 'react';
 import { PriceDisplay, PriceChange } from '@/lib/types';
 
 interface Props {
   prices: PriceDisplay[];
   history: PriceChange[];
   error: string;
-  fetchTime: string;
 }
 
 const VS: Record<string, string> = {
@@ -125,35 +124,11 @@ function Chevron({ open }: { open: boolean }) {
   );
 }
 
-export default function ClientPage({ prices, history, error, fetchTime }: Props) {
+export default function ClientPage({ prices, history, error }: Props) {
   const [page, setPage] = useState<'changes' | 'pricing'>('changes');
   const [vendorFilter, setVendorFilter] = useState('all');
   const [search, setSearch] = useState('');
   const [expandedDates, setExpandedDates] = useState<Set<string>>(new Set());
-  const [countdown, setCountdown] = useState('');
-
-  // 30分钟探测倒计时
-  useEffect(() => {
-    const calcCountdown = () => {
-      const lastFetch = new Date(fetchTime).getTime();
-      const nextFetch = lastFetch + 30 * 60 * 1000; // 30分钟后
-      const now = Date.now();
-      const diff = nextFetch - now;
-
-      if (diff <= 0) {
-        setCountdown('即将探测');
-        return;
-      }
-
-      const mins = Math.floor(diff / 60000);
-      const secs = Math.floor((diff % 60000) / 1000);
-      setCountdown(`${mins}:${secs.toString().padStart(2, '0')}`);
-    };
-
-    calcCountdown();
-    const timer = setInterval(calcCountdown, 1000);
-    return () => clearInterval(timer);
-  }, [fetchTime]);
 
   const vendors = useMemo(() => Array.from(new Set(prices.map(p => p.vendorName))).sort(), [prices]);
   const filtered = useMemo(() => prices.filter(p => {
@@ -164,7 +139,6 @@ export default function ClientPage({ prices, history, error, fetchTime }: Props)
 
   const normalized = useMemo(() => history.map(norm), [history]);
   const dateGroups = useMemo(() => buildDateGroups(normalized), [normalized]);
-  const realChangeCount = useMemo(() => normalized.filter(c => c.type === 'price_change').length, [normalized]);
 
   const toggleDate = useCallback((date: string) => {
     setExpandedDates(prev => {
@@ -195,16 +169,6 @@ export default function ClientPage({ prices, history, error, fetchTime }: Props)
             {prices.length} 个模型 · ¥/百万Tokens
           </p>
         </div>
-        <div className="flex items-center gap-3 text-[11px] text-gray-400">
-          <div className="flex items-center gap-1.5">
-            <span className="w-1.5 h-1.5 rounded-full bg-emerald-400 pulse-dot" />
-            <span className="font-mono">{fmtDateTime(fetchTime)}</span>
-          </div>
-          <div className="flex items-center gap-1 px-2 py-0.5 bg-gray-100 rounded">
-            <span className="text-gray-500">下次</span>
-            <span className="font-mono font-medium text-gray-600">{countdown}</span>
-          </div>
-        </div>
       </header>
 
       {/* ===== Nav ===== */}
@@ -214,9 +178,9 @@ export default function ClientPage({ prices, history, error, fetchTime }: Props)
           className={`tab-btn ${page === 'changes' ? 'active' : ''}`}
         >
           变更日志
-          {realChangeCount > 0 && (
+          {normalized.length > 0 && (
             <span className="ml-2 text-[11px] bg-red-50 text-red-500 rounded-full px-2 py-0.5 font-bold">
-              {realChangeCount}
+              {normalized.length}
             </span>
           )}
         </button>

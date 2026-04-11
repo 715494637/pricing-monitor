@@ -124,10 +124,23 @@ async function main() {
   console.log(`获取到 ${newPrices.length} 个模型`);
 
   const prevSnapshot = readJSON(SNAPSHOT_FILE, null);
+  const history = readJSON(HISTORY_FILE, []);
 
   let newChanges = [];
   if (prevSnapshot && prevSnapshot.prices) {
+    // 有旧数据，正常对比
     newChanges = diffPricing(prevSnapshot.prices, newPrices);
+  } else if (history.length === 0) {
+    // 首次探测且无历史记录，把所有模型记录为新增
+    const now = new Date().toISOString();
+    newChanges = newPrices.map(p => ({
+      modelName: p.modelName,
+      vendorName: p.vendorName,
+      type: 'new',
+      inputPrice: p.inputPrice,
+      outputPrice: p.outputPrice,
+      timestamp: now,
+    }));
   }
 
   // Save snapshot
@@ -139,7 +152,6 @@ async function main() {
   console.log('快照已保存');
 
   // Append to history
-  const history = readJSON(HISTORY_FILE, []);
   if (newChanges.length > 0) {
     const updated = [...newChanges, ...history].slice(0, 1000);
     fs.writeFileSync(HISTORY_FILE, JSON.stringify(updated, null, 2));
@@ -158,9 +170,6 @@ async function main() {
     });
   } else {
     console.log('无价格变动');
-    if (!fs.existsSync(HISTORY_FILE)) {
-      fs.writeFileSync(HISTORY_FILE, JSON.stringify([], null, 2));
-    }
   }
 
   const hasChanges = newChanges.length > 0 || !prevSnapshot;

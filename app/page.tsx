@@ -21,14 +21,12 @@ export default async function Home() {
   const history = await readDataFile<PriceChange[]>('history.json', []);
 
   const prices = snapshot?.prices || [];
-  const fetchTime = snapshot?.timestamp || new Date().toISOString();
 
   return (
     <ClientPage
       prices={prices}
       history={history}
       error={prices.length === 0 ? '暂无数据，等待首次探测...' : ''}
-      fetchTime={fetchTime}
     />
   );
 }
