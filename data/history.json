@@ -1,5 +1,21 @@
 [
   {
+    "modelName": "no/claude-opus-4-6",
+    "vendorName": "Anthropic",
+    "type": "removed",
+    "inputPrice": 75,
+    "outputPrice": 375,
+    "timestamp": "2026-04-11T10:04:50.221Z"
+  },
+  {
+    "modelName": "no/claude-sonnet-4-6",
+    "vendorName": "Anthropic",
+    "type": "removed",
+    "inputPrice": 75,
+    "outputPrice": 375,
+    "timestamp": "2026-04-11T10:04:50.221Z"
+  },
+  {
     "modelName": "claude-opus-4-6",
     "vendorName": "Anthropic",
     "type": "new",
