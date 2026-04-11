@@ -1,5 +1,13 @@
 [
   {
+    "modelName": "claude-opus-4-6",
+    "vendorName": "Anthropic",
+    "type": "new",
+    "inputPrice": 75,
+    "outputPrice": 375,
+    "timestamp": "2026-04-11T09:09:22.676Z"
+  },
+  {
     "modelName": "Claude Haiku 4.5",
     "vendorName": "Anthropic",
     "type": "new",

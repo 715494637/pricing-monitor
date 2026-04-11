@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-04-11T08:03:27.032Z",
+  "timestamp": "2026-04-11T09:09:22.676Z",
   "prices": [
     {
       "modelName": "Claude Haiku 4.5",
@@ -48,6 +48,19 @@
       "outputPrice": 66,
       "modelRatio": 6.5,
       "completionRatio": 5.076923076923077,
+      "endpoints": [
+        "anthropic",
+        "openai"
+      ]
+    },
+    {
+      "modelName": "claude-opus-4-6",
+      "vendorName": "Anthropic",
+      "vendorIcon": "Claude.Color",
+      "inputPrice": 75,
+      "outputPrice": 375,
+      "modelRatio": 37.5,
+      "completionRatio": 5,
       "endpoints": [
         "anthropic",
         "openai"
