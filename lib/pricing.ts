@@ -1,4 +1,4 @@
-import { PricingAPIResponse, PriceDisplay, PriceChange, PriceSnapshot } from './types';
+import { PricingAPIResponse, PriceDisplay, PriceChange } from './types';
 
 const API_URL = 'https://new2.882111.xyz/api/pricing';
 const PRICE_MULTIPLIER = 2; // model_ratio * 2 = ¥/M tokens
@@ -45,25 +45,43 @@ export function diffPricing(oldPrices: PriceDisplay[], newPrices: PriceDisplay[]
   const oldMap = new Map(oldPrices.map(p => [p.modelName, p]));
   const newMap = new Map(newPrices.map(p => [p.modelName, p]));
 
-  // Check for changes and new models
   for (const [name, np] of newMap) {
     const op = oldMap.get(name);
     if (!op) {
-      changes.push({ modelName: name, vendorName: np.vendorName, field: 'new', newValue: np.inputPrice, timestamp: now });
+      changes.push({
+        modelName: name,
+        vendorName: np.vendorName,
+        type: 'new',
+        inputPrice: np.inputPrice,
+        outputPrice: np.outputPrice,
+        timestamp: now,
+      });
       continue;
     }
-    if (op.inputPrice !== np.inputPrice) {
-      changes.push({ modelName: name, vendorName: np.vendorName, field: 'input', oldValue: op.inputPrice, newValue: np.inputPrice, timestamp: now });
-    }
-    if (op.outputPrice !== np.outputPrice) {
-      changes.push({ modelName: name, vendorName: np.vendorName, field: 'output', oldValue: op.outputPrice, newValue: np.outputPrice, timestamp: now });
+    if (op.inputPrice !== np.inputPrice || op.outputPrice !== np.outputPrice) {
+      changes.push({
+        modelName: name,
+        vendorName: np.vendorName,
+        type: 'price_change',
+        oldInput: op.inputPrice,
+        newInput: np.inputPrice,
+        oldOutput: op.outputPrice,
+        newOutput: np.outputPrice,
+        timestamp: now,
+      });
     }
   }
 
-  // Check for removed models
   for (const [name, op] of oldMap) {
     if (!newMap.has(name)) {
-      changes.push({ modelName: name, vendorName: op.vendorName, field: 'removed', oldValue: op.inputPrice, timestamp: now });
+      changes.push({
+        modelName: name,
+        vendorName: op.vendorName,
+        type: 'removed',
+        inputPrice: op.inputPrice,
+        outputPrice: op.outputPrice,
+        timestamp: now,
+      });
     }
   }
 

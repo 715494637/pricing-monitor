@@ -31,8 +31,8 @@ export interface PriceDisplay {
   modelName: string;
   vendorName: string;
   vendorIcon: string;
-  inputPrice: number;   // ¥/M tokens
-  outputPrice: number;  // ¥/M tokens
+  inputPrice: number;
+  outputPrice: number;
   modelRatio: number;
   completionRatio: number;
   endpoints: string[];
@@ -43,11 +43,21 @@ export interface PriceSnapshot {
   prices: PriceDisplay[];
 }
 
+/**
+ * 变更记录 — 每条记录对应一个模型在一次探测中的变化
+ * type: 'price_change' | 'new' | 'removed'
+ */
 export interface PriceChange {
   modelName: string;
   vendorName: string;
-  field: 'input' | 'output' | 'new' | 'removed';
-  oldValue?: number;
-  newValue?: number;
+  type: 'price_change' | 'new' | 'removed';
   timestamp: string;
+  // price_change: 旧→新
+  oldInput?: number;
+  newInput?: number;
+  oldOutput?: number;
+  newOutput?: number;
+  // new: 新增模型的价格
+  inputPrice?: number;
+  outputPrice?: number;
 }
