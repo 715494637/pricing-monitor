@@ -23,9 +23,10 @@ function fmtDate(iso: string) {
   const now = new Date();
   const diff = Math.floor((now.getTime() - d.getTime()) / 86400000);
   const dateStr = d.toLocaleDateString('zh-CN', { month: '2-digit', day: '2-digit' });
-  if (diff === 0) return `今天 ${dateStr}`;
-  if (diff === 1) return `昨天 ${dateStr}`;
-  return d.toLocaleDateString('zh-CN', { year: 'numeric', month: '2-digit', day: '2-digit' });
+  const timeStr = d.toLocaleTimeString('zh-CN', { hour: '2-digit', minute: '2-digit' });
+  if (diff === 0) return `今天 ${timeStr}`;
+  if (diff === 1) return `昨天 ${timeStr}`;
+  return `${d.toLocaleDateString('zh-CN', { year: 'numeric', month: '2-digit', day: '2-digit' })} ${timeStr}`;
 }
 function fmtTime(iso: string) {
   return new Date(iso).toLocaleString('zh-CN', { hour: '2-digit', minute: '2-digit' });
@@ -73,6 +74,7 @@ function norm(c: PriceChange): PriceChange {
 }
 
 function buildDateGroups(history: PriceChange[]): DateGroup[] {
+  // 按时间戳分组（精确到秒），每次探测是一个 batch
   const batchMap = new Map<string, PriceChange[]>();
   for (const c of history) {
     const ts = c.timestamp.substring(0, 19);
@@ -80,9 +82,10 @@ function buildDateGroups(history: PriceChange[]): DateGroup[] {
     batchMap.get(ts)!.push(c);
   }
 
-  const batches: Batch[] = [];
+  // 每个 batch 就是一次变更记录
+  const groups: DateGroup[] = [];
   for (const [ts, changes] of batchMap) {
-    batches.push({
+    const batch: Batch = {
       key: ts,
       timestamp: ts,
       date: fmtDate(changes[0].timestamp),
@@ -91,27 +94,19 @@ function buildDateGroups(history: PriceChange[]): DateGroup[] {
       priceChanges: changes.filter(c => c.type === 'price_change'),
       newModels: changes.filter(c => c.type === 'new'),
       removedModels: changes.filter(c => c.type === 'removed'),
-    });
-  }
-
-  const dateMap = new Map<string, Batch[]>();
-  for (const b of batches) {
-    if (!dateMap.has(b.date)) dateMap.set(b.date, []);
-    dateMap.get(b.date)!.push(b);
-  }
-
-  const groups: DateGroup[] = [];
-  for (const [date, dBatches] of dateMap) {
-    const all = dBatches.flatMap(b => b.changes);
+    };
     groups.push({
-      date,
-      batches: dBatches,
-      totalChanges: all.length,
-      totalPriceChanges: all.filter(c => c.type === 'price_change').length,
-      totalNew: all.filter(c => c.type === 'new').length,
-      totalRemoved: all.filter(c => c.type === 'removed').length,
+      date: batch.date,
+      batches: [batch],
+      totalChanges: changes.length,
+      totalPriceChanges: batch.priceChanges.length,
+      totalNew: batch.newModels.length,
+      totalRemoved: batch.removedModels.length,
     });
   }
+
+  // 按时间倒序排列（最新的在前）
+  groups.sort((a, b) => b.batches[0].timestamp.localeCompare(a.batches[0].timestamp));
   return groups;
 }
 
@@ -178,9 +173,9 @@ export default function ClientPage({ prices, history, error }: Props) {
           className={`tab-btn ${page === 'changes' ? 'active' : ''}`}
         >
           变更日志
-          {normalized.length > 0 && (
+          {dateGroups.length > 0 && (
             <span className="ml-2 text-[11px] bg-red-50 text-red-500 rounded-full px-2 py-0.5 font-bold">
-              {normalized.length}
+              {dateGroups.length}
             </span>
           )}
         </button>
@@ -233,24 +228,14 @@ export default function ClientPage({ prices, history, error }: Props) {
                         </span>
                       )}
                     </div>
-
-                    {/* 探测次数 */}
-                    <span className="text-xs text-gray-300 font-mono whitespace-nowrap">{group.batches.length}次</span>
                   </button>
 
                   {/* ---- 展开内容（动画） ---- */}
                   <div className={`expand-wrapper ${open ? 'open' : ''}`}>
                     <div className="expand-inner">
                       <div className="expand-content-fade border-t border-gray-100">
-                        {group.batches.map((batch, bi) => (
-                          <div key={batch.key} className={bi > 0 ? 'border-t border-gray-50' : ''}>
-                            {/* 时间戳 */}
-                            {group.batches.length > 1 && (
-                              <div className="batch-divider">
-                                <span className="text-xs font-medium text-gray-400 font-mono">{batch.time}</span>
-                              </div>
-                            )}
-
+                        {group.batches.map((batch) => (
+                          <div key={batch.key}>
                             {/* 价格调整 - 紧凑单行布局 */}
                             {batch.priceChanges.length > 0 && (
                               <div className="px-4 py-2.5">
