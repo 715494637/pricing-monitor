@@ -1,6 +1,32 @@
 {
-  "timestamp": "2026-04-11T07:05:29.532Z",
+  "timestamp": "2026-04-11T08:03:27.032Z",
   "prices": [
+    {
+      "modelName": "Claude Haiku 4.5",
+      "vendorName": "Anthropic",
+      "vendorIcon": "Claude.Color",
+      "inputPrice": 75,
+      "outputPrice": 75,
+      "modelRatio": 37.5,
+      "completionRatio": 1,
+      "endpoints": [
+        "anthropic",
+        "openai"
+      ]
+    },
+    {
+      "modelName": "Claude Haiku 4.5 with thinking",
+      "vendorName": "Anthropic",
+      "vendorIcon": "Claude.Color",
+      "inputPrice": 75,
+      "outputPrice": 75,
+      "modelRatio": 37.5,
+      "completionRatio": 1,
+      "endpoints": [
+        "anthropic",
+        "openai"
+      ]
+    },
     {
       "modelName": "Claude-haiku-4-5-20251001-fast",
       "vendorName": "Anthropic",
@@ -80,6 +106,19 @@
       ]
     },
     {
+      "modelName": "no/claude-opus-4-6",
+      "vendorName": "Anthropic",
+      "vendorIcon": "Claude.Color",
+      "inputPrice": 75,
+      "outputPrice": 375,
+      "modelRatio": 37.5,
+      "completionRatio": 5,
+      "endpoints": [
+        "anthropic",
+        "openai"
+      ]
+    },
+    {
       "modelName": "no/Claude-opus-4-6",
       "vendorName": "Anthropic",
       "vendorIcon": "Claude.Color",
@@ -87,6 +126,19 @@
       "outputPrice": 75,
       "modelRatio": 37.5,
       "completionRatio": 1,
+      "endpoints": [
+        "anthropic",
+        "openai"
+      ]
+    },
+    {
+      "modelName": "no/claude-sonnet-4-6",
+      "vendorName": "Anthropic",
+      "vendorIcon": "Claude.Color",
+      "inputPrice": 75,
+      "outputPrice": 375,
+      "modelRatio": 37.5,
+      "completionRatio": 5,
       "endpoints": [
         "anthropic",
         "openai"
@@ -145,6 +197,19 @@
       ]
     },
     {
+      "modelName": "rel/Claude-sonnet-4-6",
+      "vendorName": "Anthropic",
+      "vendorIcon": "Claude.Color",
+      "inputPrice": 9,
+      "outputPrice": 28,
+      "modelRatio": 4.5,
+      "completionRatio": 3.111111111111111,
+      "endpoints": [
+        "anthropic",
+        "openai"
+      ]
+    },
+    {
       "modelName": "rel/claude-sonnet-4-6-context-1m",
       "vendorName": "Anthropic",
       "vendorIcon": "Claude.Color",
@@ -187,6 +252,32 @@
       "modelName": "rel/gemini-3.1-pro-preview",
       "vendorName": "Google",
       "vendorIcon": "Gemini.Color",
+      "inputPrice": 75,
+      "outputPrice": 75,
+      "modelRatio": 37.5,
+      "completionRatio": 1,
+      "endpoints": [
+        "anthropic",
+        "openai"
+      ]
+    },
+    {
+      "modelName": "llama-4-maverick-17b-fast",
+      "vendorName": "Meta",
+      "vendorIcon": "Ollama",
+      "inputPrice": 75,
+      "outputPrice": 75,
+      "modelRatio": 37.5,
+      "completionRatio": 1,
+      "endpoints": [
+        "anthropic",
+        "openai"
+      ]
+    },
+    {
+      "modelName": "llama-4-scout-17b-fast",
+      "vendorName": "Meta",
+      "vendorIcon": "Ollama",
       "inputPrice": 75,
       "outputPrice": 75,
       "modelRatio": 37.5,
@@ -282,6 +373,97 @@
       "outputPrice": 35,
       "modelRatio": 9,
       "completionRatio": 1.9444444444444444,
+      "endpoints": [
+        "anthropic",
+        "openai"
+      ]
+    },
+    {
+      "modelName": "Claude Opus 4.5",
+      "vendorName": "Unknown",
+      "vendorIcon": "",
+      "inputPrice": 75,
+      "outputPrice": 75,
+      "modelRatio": 37.5,
+      "completionRatio": 1,
+      "endpoints": [
+        "anthropic",
+        "openai"
+      ]
+    },
+    {
+      "modelName": "Claude-haiku-4-5",
+      "vendorName": "Unknown",
+      "vendorIcon": "",
+      "inputPrice": 75,
+      "outputPrice": 75,
+      "modelRatio": 37.5,
+      "completionRatio": 1,
+      "endpoints": [
+        "anthropic",
+        "openai"
+      ]
+    },
+    {
+      "modelName": "Claude-opus-4-6",
+      "vendorName": "Unknown",
+      "vendorIcon": "",
+      "inputPrice": 8,
+      "outputPrice": 40,
+      "modelRatio": 4,
+      "completionRatio": 5,
+      "endpoints": [
+        "anthropic",
+        "openai"
+      ]
+    },
+    {
+      "modelName": "Claude-sonnet-4-5-20250929",
+      "vendorName": "Unknown",
+      "vendorIcon": "",
+      "inputPrice": 22,
+      "outputPrice": 166.2406,
+      "modelRatio": 11,
+      "completionRatio": 7.556390977443609,
+      "endpoints": [
+        "anthropic",
+        "openai"
+      ]
+    },
+    {
+      "modelName": "Claude-sonnet-4-6",
+      "vendorName": "Unknown",
+      "vendorIcon": "",
+      "inputPrice": 4,
+      "outputPrice": 19,
+      "modelRatio": 2,
+      "completionRatio": 4.75,
+      "endpoints": [
+        "anthropic",
+        "openai"
+      ]
+    },
+    {
+      "modelName": "gpt-5.3-codex",
+      "vendorName": "Unknown",
+      "vendorIcon": "",
+      "inputPrice": 75,
+      "outputPrice": 600,
+      "modelRatio": 37.5,
+      "completionRatio": 8,
+      "endpoints": [
+        "anthropic",
+        "openai"
+      ]
+    },
+    {
+      "modelName": "gpt-5.4",
+      "vendorName": "Unknown",
+      "vendorIcon": "",
+      "inputPrice": 20,
+      "outputPrice": 160,
+      "modelRatio": 10,
+      "completionRatio": 8,
       "endpoints": [
         "anthropic",
         "openai"
