@@ -1,0 +1,38 @@
+[
+  {
+    "modelName": "Claude-sonnet-4-6-fast",
+    "vendorName": "Anthropic",
+    "type": "price_change",
+    "oldInput": 12,
+    "newInput": 15,
+    "oldOutput": 60,
+    "newOutput": 70,
+    "timestamp": "2026-04-11T02:46:42.577Z"
+  },
+  {
+    "modelName": "rel/gpt-5.4",
+    "vendorName": "OpenAI",
+    "type": "price_change",
+    "oldInput": 16,
+    "newInput": 14,
+    "oldOutput": 32,
+    "newOutput": 28,
+    "timestamp": "2026-04-11T02:46:42.577Z"
+  },
+  {
+    "modelName": "rel/gpt-5.4-nano",
+    "vendorName": "OpenAI",
+    "type": "new",
+    "inputPrice": 75,
+    "outputPrice": 75,
+    "timestamp": "2026-04-11T02:46:42.577Z"
+  },
+  {
+    "modelName": "rel/claude-4-haiku-latest",
+    "vendorName": "Anthropic",
+    "type": "removed",
+    "inputPrice": 1.5,
+    "outputPrice": 7.5,
+    "timestamp": "2026-04-11T02:46:42.577Z"
+  }
+]
