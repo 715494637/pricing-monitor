@@ -1,5 +1,63 @@
 [
   {
+    "modelName": "op/gemini-3.1-pro-preview",
+    "vendorName": "Google",
+    "type": "new",
+    "inputPrice": 25,
+    "outputPrice": 137.5,
+    "timestamp": "2026-04-12T17:05:32.858Z"
+  },
+  {
+    "modelName": "op/claude-opus-4-6",
+    "vendorName": "Unknown",
+    "type": "price_change",
+    "oldInput": 75,
+    "newInput": 12,
+    "oldOutput": 375,
+    "newOutput": 84,
+    "timestamp": "2026-04-12T17:05:32.858Z"
+  },
+  {
+    "modelName": "op/claude-opus-4-6-fast",
+    "vendorName": "Unknown",
+    "type": "price_change",
+    "oldInput": 75,
+    "newInput": 22,
+    "oldOutput": 375,
+    "newOutput": 132,
+    "timestamp": "2026-04-12T17:05:32.858Z"
+  },
+  {
+    "modelName": "op/claude-sonnet-4-6",
+    "vendorName": "Unknown",
+    "type": "price_change",
+    "oldInput": 75,
+    "newInput": 8,
+    "oldOutput": 375,
+    "newOutput": 40,
+    "timestamp": "2026-04-12T17:05:32.858Z"
+  },
+  {
+    "modelName": "op/gpt-5.4",
+    "vendorName": "Unknown",
+    "type": "price_change",
+    "oldInput": 75,
+    "newInput": 16,
+    "oldOutput": 75,
+    "newOutput": 24,
+    "timestamp": "2026-04-12T17:05:32.858Z"
+  },
+  {
+    "modelName": "op/gpt-5.4-fast",
+    "vendorName": "Unknown",
+    "type": "price_change",
+    "oldInput": 75,
+    "newInput": 18,
+    "oldOutput": 75,
+    "newOutput": 36,
+    "timestamp": "2026-04-12T17:05:32.858Z"
+  },
+  {
     "modelName": "claude-haiku-4-5-20251001",
     "vendorName": "Anthropic",
     "type": "new",

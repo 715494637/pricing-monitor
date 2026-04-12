@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-04-12T16:00:21.848Z",
+  "timestamp": "2026-04-12T17:05:32.859Z",
   "prices": [
     {
       "modelName": "Claude Haiku 4.5",
@@ -210,45 +210,6 @@
       ]
     },
     {
-      "modelName": "op/claude-opus-4-6",
-      "vendorName": "Anthropic",
-      "vendorIcon": "Claude.Color",
-      "inputPrice": 75,
-      "outputPrice": 375,
-      "modelRatio": 37.5,
-      "completionRatio": 5,
-      "endpoints": [
-        "anthropic",
-        "openai"
-      ]
-    },
-    {
-      "modelName": "op/claude-opus-4-6-fast",
-      "vendorName": "Anthropic",
-      "vendorIcon": "Claude.Color",
-      "inputPrice": 75,
-      "outputPrice": 375,
-      "modelRatio": 37.5,
-      "completionRatio": 5,
-      "endpoints": [
-        "anthropic",
-        "openai"
-      ]
-    },
-    {
-      "modelName": "op/claude-sonnet-4-6",
-      "vendorName": "Anthropic",
-      "vendorIcon": "Claude.Color",
-      "inputPrice": 75,
-      "outputPrice": 375,
-      "modelRatio": 37.5,
-      "completionRatio": 5,
-      "endpoints": [
-        "anthropic",
-        "openai"
-      ]
-    },
-    {
       "modelName": "rel/Claude-haiku-4-5",
       "vendorName": "Anthropic",
       "vendorIcon": "Claude.Color",
@@ -347,6 +308,19 @@
       "outputPrice": 77,
       "modelRatio": 7.5,
       "completionRatio": 5.133333333333334,
+      "endpoints": [
+        "anthropic",
+        "openai"
+      ]
+    },
+    {
+      "modelName": "op/gemini-3.1-pro-preview",
+      "vendorName": "Google",
+      "vendorIcon": "Gemini.Color",
+      "inputPrice": 25,
+      "outputPrice": 137.5,
+      "modelRatio": 12.5,
+      "completionRatio": 5.5,
       "endpoints": [
         "anthropic",
         "openai"
@@ -490,32 +464,6 @@
       "outputPrice": 600,
       "modelRatio": 37.5,
       "completionRatio": 8,
-      "endpoints": [
-        "anthropic",
-        "openai"
-      ]
-    },
-    {
-      "modelName": "op/gpt-5.4",
-      "vendorName": "OpenAI",
-      "vendorIcon": "OpenAI.Color",
-      "inputPrice": 75,
-      "outputPrice": 75,
-      "modelRatio": 37.5,
-      "completionRatio": 1,
-      "endpoints": [
-        "anthropic",
-        "openai"
-      ]
-    },
-    {
-      "modelName": "op/gpt-5.4-fast",
-      "vendorName": "OpenAI",
-      "vendorIcon": "OpenAI.Color",
-      "inputPrice": 75,
-      "outputPrice": 75,
-      "modelRatio": 37.5,
-      "completionRatio": 1,
       "endpoints": [
         "anthropic",
         "openai"
@@ -685,6 +633,71 @@
       "outputPrice": 600,
       "modelRatio": 37.5,
       "completionRatio": 8,
+      "endpoints": [
+        "anthropic",
+        "openai"
+      ]
+    },
+    {
+      "modelName": "op/claude-opus-4-6",
+      "vendorName": "Unknown",
+      "vendorIcon": "",
+      "inputPrice": 12,
+      "outputPrice": 84,
+      "modelRatio": 6,
+      "completionRatio": 7,
+      "endpoints": [
+        "anthropic",
+        "openai"
+      ]
+    },
+    {
+      "modelName": "op/claude-opus-4-6-fast",
+      "vendorName": "Unknown",
+      "vendorIcon": "",
+      "inputPrice": 22,
+      "outputPrice": 132,
+      "modelRatio": 11,
+      "completionRatio": 6,
+      "endpoints": [
+        "anthropic",
+        "openai"
+      ]
+    },
+    {
+      "modelName": "op/claude-sonnet-4-6",
+      "vendorName": "Unknown",
+      "vendorIcon": "",
+      "inputPrice": 8,
+      "outputPrice": 40,
+      "modelRatio": 4,
+      "completionRatio": 5,
+      "endpoints": [
+        "anthropic",
+        "openai"
+      ]
+    },
+    {
+      "modelName": "op/gpt-5.4",
+      "vendorName": "Unknown",
+      "vendorIcon": "",
+      "inputPrice": 16,
+      "outputPrice": 24,
+      "modelRatio": 8,
+      "completionRatio": 1.5,
+      "endpoints": [
+        "anthropic",
+        "openai"
+      ]
+    },
+    {
+      "modelName": "op/gpt-5.4-fast",
+      "vendorName": "Unknown",
+      "vendorIcon": "",
+      "inputPrice": 18,
+      "outputPrice": 36,
+      "modelRatio": 9,
+      "completionRatio": 2,
       "endpoints": [
         "anthropic",
         "openai"
