@@ -1,5 +1,101 @@
 [
   {
+    "modelName": "dd/gemini-3.1-pro-preview",
+    "vendorName": "Google",
+    "type": "new",
+    "inputPrice": 12,
+    "outputPrice": 84,
+    "timestamp": "2026-04-13T08:08:16.737Z"
+  },
+  {
+    "modelName": "dd/claude-opus-4-6",
+    "vendorName": "Unknown",
+    "type": "new",
+    "inputPrice": 8,
+    "outputPrice": 40,
+    "timestamp": "2026-04-13T08:08:16.737Z"
+  },
+  {
+    "modelName": "dd/claude-opus-4-6-fast",
+    "vendorName": "Unknown",
+    "type": "new",
+    "inputPrice": 22,
+    "outputPrice": 132,
+    "timestamp": "2026-04-13T08:08:16.737Z"
+  },
+  {
+    "modelName": "dd/claude-sonnet-4-6",
+    "vendorName": "Unknown",
+    "type": "new",
+    "inputPrice": 8,
+    "outputPrice": 40,
+    "timestamp": "2026-04-13T08:08:16.737Z"
+  },
+  {
+    "modelName": "dd/gpt-5.4",
+    "vendorName": "Unknown",
+    "type": "new",
+    "inputPrice": 16,
+    "outputPrice": 24,
+    "timestamp": "2026-04-13T08:08:16.737Z"
+  },
+  {
+    "modelName": "dd/gpt-5.4-fast",
+    "vendorName": "Unknown",
+    "type": "new",
+    "inputPrice": 18,
+    "outputPrice": 36,
+    "timestamp": "2026-04-13T08:08:16.737Z"
+  },
+  {
+    "modelName": "op/gemini-3.1-pro-preview",
+    "vendorName": "Google",
+    "type": "removed",
+    "inputPrice": 25,
+    "outputPrice": 137.5,
+    "timestamp": "2026-04-13T08:08:16.737Z"
+  },
+  {
+    "modelName": "op/claude-opus-4-6",
+    "vendorName": "Unknown",
+    "type": "removed",
+    "inputPrice": 12,
+    "outputPrice": 84,
+    "timestamp": "2026-04-13T08:08:16.737Z"
+  },
+  {
+    "modelName": "op/claude-opus-4-6-fast",
+    "vendorName": "Unknown",
+    "type": "removed",
+    "inputPrice": 22,
+    "outputPrice": 132,
+    "timestamp": "2026-04-13T08:08:16.737Z"
+  },
+  {
+    "modelName": "op/claude-sonnet-4-6",
+    "vendorName": "Unknown",
+    "type": "removed",
+    "inputPrice": 8,
+    "outputPrice": 40,
+    "timestamp": "2026-04-13T08:08:16.737Z"
+  },
+  {
+    "modelName": "op/gpt-5.4",
+    "vendorName": "Unknown",
+    "type": "removed",
+    "inputPrice": 16,
+    "outputPrice": 24,
+    "timestamp": "2026-04-13T08:08:16.737Z"
+  },
+  {
+    "modelName": "op/gpt-5.4-fast",
+    "vendorName": "Unknown",
+    "type": "removed",
+    "inputPrice": 18,
+    "outputPrice": 36,
+    "timestamp": "2026-04-13T08:08:16.737Z"
+  },
+  {
     "modelName": "op/gemini-3.1-pro-preview",
     "vendorName": "Google",
     "type": "new",
