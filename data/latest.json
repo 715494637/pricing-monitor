@@ -1,32 +1,6 @@
 {
-  "timestamp": "2026-04-14T07:08:20.942Z",
+  "timestamp": "2026-04-15T09:56:40.950Z",
   "prices": [
-    {
-      "modelName": "Claude Haiku 4.5",
-      "vendorName": "Anthropic",
-      "vendorIcon": "Claude.Color",
-      "inputPrice": 75,
-      "outputPrice": 75,
-      "modelRatio": 37.5,
-      "completionRatio": 1,
-      "endpoints": [
-        "anthropic",
-        "openai"
-      ]
-    },
-    {
-      "modelName": "Claude Haiku 4.5 with thinking",
-      "vendorName": "Anthropic",
-      "vendorIcon": "Claude.Color",
-      "inputPrice": 75,
-      "outputPrice": 75,
-      "modelRatio": 37.5,
-      "completionRatio": 1,
-      "endpoints": [
-        "anthropic",
-        "openai"
-      ]
-    },
     {
       "modelName": "Claude-haiku-4-5-20251001-fast",
       "vendorName": "Anthropic",
@@ -54,19 +28,6 @@
       ]
     },
     {
-      "modelName": "claude-opus-4-6",
-      "vendorName": "Anthropic",
-      "vendorIcon": "Claude.Color",
-      "inputPrice": 75,
-      "outputPrice": 375,
-      "modelRatio": 37.5,
-      "completionRatio": 5,
-      "endpoints": [
-        "anthropic",
-        "openai"
-      ]
-    },
-    {
       "modelName": "Claude-opus-4-6-fast",
       "vendorName": "Anthropic",
       "vendorIcon": "Claude.Color",
@@ -74,19 +35,6 @@
       "outputPrice": 96,
       "modelRatio": 9.5,
       "completionRatio": 5.052631578947368,
-      "endpoints": [
-        "anthropic",
-        "openai"
-      ]
-    },
-    {
-      "modelName": "Claude-sonnet-4-5-fast",
-      "vendorName": "Anthropic",
-      "vendorIcon": "Claude.Color",
-      "inputPrice": 75,
-      "outputPrice": 75,
-      "modelRatio": 37.5,
-      "completionRatio": 1,
       "endpoints": [
         "anthropic",
         "openai"
@@ -113,19 +61,6 @@
       "outputPrice": 77,
       "modelRatio": 7.5,
       "completionRatio": 5.133333333333334,
-      "endpoints": [
-        "anthropic",
-        "openai"
-      ]
-    },
-    {
-      "modelName": "no/Claude-opus-4-6",
-      "vendorName": "Anthropic",
-      "vendorIcon": "Claude.Color",
-      "inputPrice": 75,
-      "outputPrice": 75,
-      "modelRatio": 37.5,
-      "completionRatio": 1,
       "endpoints": [
         "anthropic",
         "openai"
@@ -223,97 +158,6 @@
       ]
     },
     {
-      "modelName": "rel/gemini-3-flash-preview",
-      "vendorName": "Google",
-      "vendorIcon": "Gemini.Color",
-      "inputPrice": 75,
-      "outputPrice": 75,
-      "modelRatio": 37.5,
-      "completionRatio": 1,
-      "endpoints": [
-        "anthropic",
-        "openai"
-      ]
-    },
-    {
-      "modelName": "rel/gemini-3.1-pro-preview",
-      "vendorName": "Google",
-      "vendorIcon": "Gemini.Color",
-      "inputPrice": 75,
-      "outputPrice": 75,
-      "modelRatio": 37.5,
-      "completionRatio": 1,
-      "endpoints": [
-        "anthropic",
-        "openai"
-      ]
-    },
-    {
-      "modelName": "llama-4-maverick-17b-fast",
-      "vendorName": "Meta",
-      "vendorIcon": "Ollama",
-      "inputPrice": 75,
-      "outputPrice": 75,
-      "modelRatio": 37.5,
-      "completionRatio": 1,
-      "endpoints": [
-        "anthropic",
-        "openai"
-      ]
-    },
-    {
-      "modelName": "llama-4-scout-17b-fast",
-      "vendorName": "Meta",
-      "vendorIcon": "Ollama",
-      "inputPrice": 75,
-      "outputPrice": 75,
-      "modelRatio": 37.5,
-      "completionRatio": 1,
-      "endpoints": [
-        "anthropic",
-        "openai"
-      ]
-    },
-    {
-      "modelName": "gpt-5.4",
-      "vendorName": "OpenAI",
-      "vendorIcon": "OpenAI.Color",
-      "inputPrice": 20,
-      "outputPrice": 160,
-      "modelRatio": 10,
-      "completionRatio": 8,
-      "endpoints": [
-        "anthropic",
-        "openai"
-      ]
-    },
-    {
-      "modelName": "rel/gpt-5.2",
-      "vendorName": "OpenAI",
-      "vendorIcon": "OpenAI.Color",
-      "inputPrice": 75,
-      "outputPrice": 75,
-      "modelRatio": 37.5,
-      "completionRatio": 1,
-      "endpoints": [
-        "anthropic",
-        "openai"
-      ]
-    },
-    {
-      "modelName": "rel/gpt-5.2-pro",
-      "vendorName": "OpenAI",
-      "vendorIcon": "OpenAI.Color",
-      "inputPrice": 75,
-      "outputPrice": 75,
-      "modelRatio": 37.5,
-      "completionRatio": 1,
-      "endpoints": [
-        "anthropic",
-        "openai"
-      ]
-    },
-    {
       "modelName": "rel/gpt-5.3-codex",
       "vendorName": "OpenAI",
       "vendorIcon": "OpenAI.Color",
@@ -379,32 +223,6 @@
       ]
     },
     {
-      "modelName": "Claude Opus 4.5",
-      "vendorName": "Unknown",
-      "vendorIcon": "",
-      "inputPrice": 75,
-      "outputPrice": 75,
-      "modelRatio": 37.5,
-      "completionRatio": 1,
-      "endpoints": [
-        "anthropic",
-        "openai"
-      ]
-    },
-    {
-      "modelName": "Claude-haiku-4-5",
-      "vendorName": "Unknown",
-      "vendorIcon": "",
-      "inputPrice": 75,
-      "outputPrice": 75,
-      "modelRatio": 37.5,
-      "completionRatio": 1,
-      "endpoints": [
-        "anthropic",
-        "openai"
-      ]
-    },
-    {
       "modelName": "Claude-opus-4-6",
       "vendorName": "Unknown",
       "vendorIcon": "",
@@ -438,19 +256,6 @@
       "outputPrice": 19,
       "modelRatio": 2,
       "completionRatio": 4.75,
-      "endpoints": [
-        "anthropic",
-        "openai"
-      ]
-    },
-    {
-      "modelName": "gpt-5.3-codex",
-      "vendorName": "Unknown",
-      "vendorIcon": "",
-      "inputPrice": 75,
-      "outputPrice": 600,
-      "modelRatio": 37.5,
-      "completionRatio": 8,
       "endpoints": [
         "anthropic",
         "openai"
