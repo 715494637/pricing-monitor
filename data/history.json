@@ -2,6 +2,102 @@
   {
     "modelName": "Claude Haiku 4.5",
     "vendorName": "Anthropic",
+    "type": "removed",
+    "inputPrice": 75,
+    "outputPrice": 75,
+    "timestamp": "2026-04-15T17:07:07.812Z"
+  },
+  {
+    "modelName": "Claude Haiku 4.5 with thinking",
+    "vendorName": "Anthropic",
+    "type": "removed",
+    "inputPrice": 75,
+    "outputPrice": 75,
+    "timestamp": "2026-04-15T17:07:07.812Z"
+  },
+  {
+    "modelName": "claude-opus-4-6",
+    "vendorName": "Anthropic",
+    "type": "removed",
+    "inputPrice": 75,
+    "outputPrice": 375,
+    "timestamp": "2026-04-15T17:07:07.812Z"
+  },
+  {
+    "modelName": "Claude-sonnet-4-5-fast",
+    "vendorName": "Anthropic",
+    "type": "removed",
+    "inputPrice": 75,
+    "outputPrice": 75,
+    "timestamp": "2026-04-15T17:07:07.812Z"
+  },
+  {
+    "modelName": "llama-4-maverick-17b-fast",
+    "vendorName": "Meta",
+    "type": "removed",
+    "inputPrice": 75,
+    "outputPrice": 75,
+    "timestamp": "2026-04-15T17:07:07.812Z"
+  },
+  {
+    "modelName": "llama-4-scout-17b-fast",
+    "vendorName": "Meta",
+    "type": "removed",
+    "inputPrice": 75,
+    "outputPrice": 75,
+    "timestamp": "2026-04-15T17:07:07.812Z"
+  },
+  {
+    "modelName": "rel/gpt-5.2",
+    "vendorName": "OpenAI",
+    "type": "removed",
+    "inputPrice": 75,
+    "outputPrice": 75,
+    "timestamp": "2026-04-15T17:07:07.812Z"
+  },
+  {
+    "modelName": "rel/gpt-5.2-pro",
+    "vendorName": "OpenAI",
+    "type": "removed",
+    "inputPrice": 75,
+    "outputPrice": 75,
+    "timestamp": "2026-04-15T17:07:07.812Z"
+  },
+  {
+    "modelName": "rel/gpt-5.4-mini",
+    "vendorName": "OpenAI",
+    "type": "removed",
+    "inputPrice": 75,
+    "outputPrice": 75,
+    "timestamp": "2026-04-15T17:07:07.812Z"
+  },
+  {
+    "modelName": "rel/gpt-5.4-nano",
+    "vendorName": "OpenAI",
+    "type": "removed",
+    "inputPrice": 75,
+    "outputPrice": 75,
+    "timestamp": "2026-04-15T17:07:07.812Z"
+  },
+  {
+    "modelName": "Claude Opus 4.5",
+    "vendorName": "Unknown",
+    "type": "removed",
+    "inputPrice": 75,
+    "outputPrice": 75,
+    "timestamp": "2026-04-15T17:07:07.812Z"
+  },
+  {
+    "modelName": "Claude-haiku-4-5",
+    "vendorName": "Unknown",
+    "type": "removed",
+    "inputPrice": 75,
+    "outputPrice": 75,
+    "timestamp": "2026-04-15T17:07:07.812Z"
+  },
+  {
+    "modelName": "Claude Haiku 4.5",
+    "vendorName": "Anthropic",
     "type": "new",
     "inputPrice": 75,
     "outputPrice": 75,
