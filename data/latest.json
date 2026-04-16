@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-04-15T17:07:07.812Z",
+  "timestamp": "2026-04-16T06:03:27.316Z",
   "prices": [
     {
       "modelName": "Claude-haiku-4-5-20251001-fast",
@@ -48,6 +48,19 @@
       "outputPrice": 70,
       "modelRatio": 7.5,
       "completionRatio": 4.666666666666667,
+      "endpoints": [
+        "anthropic",
+        "openai"
+      ]
+    },
+    {
+      "modelName": "ki/claude-opus-4-6",
+      "vendorName": "Anthropic",
+      "vendorIcon": "Claude.Color",
+      "inputPrice": 50,
+      "outputPrice": 150,
+      "modelRatio": 25,
+      "completionRatio": 3,
       "endpoints": [
         "anthropic",
         "openai"
@@ -262,19 +275,6 @@
       ]
     },
     {
-      "modelName": "tp/GeminiFlash3",
-      "vendorName": "Unknown",
-      "vendorIcon": "Gemini.Color",
-      "inputPrice": 75,
-      "outputPrice": 75,
-      "modelRatio": 37.5,
-      "completionRatio": 1,
-      "endpoints": [
-        "anthropic",
-        "openai"
-      ]
-    },
-    {
       "modelName": "tp/gpt-5.4",
       "vendorName": "Unknown",
       "vendorIcon": "OpenAI.Color",
@@ -288,32 +288,6 @@
       ]
     },
     {
-      "modelName": "tp/gpt5.4-Mini",
-      "vendorName": "Unknown",
-      "vendorIcon": "OpenAI.Color",
-      "inputPrice": 75,
-      "outputPrice": 75,
-      "modelRatio": 37.5,
-      "completionRatio": 1,
-      "endpoints": [
-        "anthropic",
-        "openai"
-      ]
-    },
-    {
-      "modelName": "tp/gpt5.4-Nano",
-      "vendorName": "Unknown",
-      "vendorIcon": "OpenAI.Color",
-      "inputPrice": 75,
-      "outputPrice": 75,
-      "modelRatio": 37.5,
-      "completionRatio": 1,
-      "endpoints": [
-        "anthropic",
-        "openai"
-      ]
-    },
-    {
       "modelName": "tp/Grok-4.2",
       "vendorName": "Unknown",
       "vendorIcon": "Grok",
@@ -321,19 +295,6 @@
       "outputPrice": 72,
       "modelRatio": 6,
       "completionRatio": 6,
-      "endpoints": [
-        "anthropic",
-        "openai"
-      ]
-    },
-    {
-      "modelName": "tp/Grok4.1-Fast",
-      "vendorName": "Unknown",
-      "vendorIcon": "Grok",
-      "inputPrice": 75,
-      "outputPrice": 75,
-      "modelRatio": 37.5,
-      "completionRatio": 1,
       "endpoints": [
         "anthropic",
         "openai"

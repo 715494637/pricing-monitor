@@ -1,5 +1,45 @@
 [
   {
+    "modelName": "ki/claude-opus-4-6",
+    "vendorName": "Anthropic",
+    "type": "new",
+    "inputPrice": 50,
+    "outputPrice": 150,
+    "timestamp": "2026-04-16T06:03:27.316Z"
+  },
+  {
+    "modelName": "tp/GeminiFlash3",
+    "vendorName": "Unknown",
+    "type": "removed",
+    "inputPrice": 75,
+    "outputPrice": 75,
+    "timestamp": "2026-04-16T06:03:27.316Z"
+  },
+  {
+    "modelName": "tp/gpt5.4-Mini",
+    "vendorName": "Unknown",
+    "type": "removed",
+    "inputPrice": 75,
+    "outputPrice": 75,
+    "timestamp": "2026-04-16T06:03:27.316Z"
+  },
+  {
+    "modelName": "tp/gpt5.4-Nano",
+    "vendorName": "Unknown",
+    "type": "removed",
+    "inputPrice": 75,
+    "outputPrice": 75,
+    "timestamp": "2026-04-16T06:03:27.316Z"
+  },
+  {
+    "modelName": "tp/Grok4.1-Fast",
+    "vendorName": "Unknown",
+    "type": "removed",
+    "inputPrice": 75,
+    "outputPrice": 75,
+    "timestamp": "2026-04-16T06:03:27.316Z"
+  },
+  {
     "modelName": "Claude Haiku 4.5",
     "vendorName": "Anthropic",
     "type": "removed",
