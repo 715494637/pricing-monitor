@@ -1,53 +1,66 @@
 {
-  "timestamp": "2026-04-16T06:03:27.316Z",
+  "timestamp": "2026-04-16T14:57:33.825Z",
   "prices": [
     {
-      "modelName": "Claude-haiku-4-5-20251001-fast",
+      "modelName": "air/claude-haiku-4-5-20251001",
       "vendorName": "Anthropic",
       "vendorIcon": "Claude.Color",
       "inputPrice": 4,
-      "outputPrice": 19,
+      "outputPrice": 20,
       "modelRatio": 2,
-      "completionRatio": 4.75,
+      "completionRatio": 5,
       "endpoints": [
         "anthropic",
         "openai"
       ]
     },
     {
-      "modelName": "Claude-opus-4-5-fast",
+      "modelName": "air/claude-opus-4-5",
       "vendorName": "Anthropic",
       "vendorIcon": "Claude.Color",
       "inputPrice": 13,
-      "outputPrice": 66,
+      "outputPrice": 65,
       "modelRatio": 6.5,
-      "completionRatio": 5.076923076923077,
+      "completionRatio": 5,
       "endpoints": [
         "anthropic",
         "openai"
       ]
     },
     {
-      "modelName": "Claude-opus-4-6-fast",
+      "modelName": "air/claude-opus-4-6",
       "vendorName": "Anthropic",
       "vendorIcon": "Claude.Color",
       "inputPrice": 19,
-      "outputPrice": 96,
+      "outputPrice": 95,
       "modelRatio": 9.5,
-      "completionRatio": 5.052631578947368,
+      "completionRatio": 5,
       "endpoints": [
         "anthropic",
         "openai"
       ]
     },
     {
-      "modelName": "Claude-sonnet-4-6-fast",
+      "modelName": "air/claude-sonnet-4-5",
+      "vendorName": "Anthropic",
+      "vendorIcon": "Claude.Color",
+      "inputPrice": 4,
+      "outputPrice": 20,
+      "modelRatio": 2,
+      "completionRatio": 5,
+      "endpoints": [
+        "anthropic",
+        "openai"
+      ]
+    },
+    {
+      "modelName": "air/claude-sonnet-4-6",
       "vendorName": "Anthropic",
       "vendorIcon": "Claude.Color",
       "inputPrice": 15,
-      "outputPrice": 70,
+      "outputPrice": 75,
       "modelRatio": 7.5,
-      "completionRatio": 4.666666666666667,
+      "completionRatio": 5,
       "endpoints": [
         "anthropic",
         "openai"
@@ -67,39 +80,39 @@
       ]
     },
     {
-      "modelName": "no/Claude-sonnet-4-6",
+      "modelName": "no/claude-sonnet-4-6",
       "vendorName": "Anthropic",
       "vendorIcon": "Claude.Color",
       "inputPrice": 8,
-      "outputPrice": 20,
+      "outputPrice": 40,
       "modelRatio": 4,
-      "completionRatio": 2.5,
+      "completionRatio": 5,
       "endpoints": [
         "anthropic",
         "openai"
       ]
     },
     {
-      "modelName": "rel/Claude-haiku-4-5",
+      "modelName": "rel/claude-haiku-4-5",
       "vendorName": "Anthropic",
       "vendorIcon": "Claude.Color",
       "inputPrice": 2.2,
-      "outputPrice": 10.3,
+      "outputPrice": 11,
       "modelRatio": 1.1,
-      "completionRatio": 4.681818181818182,
+      "completionRatio": 5,
       "endpoints": [
         "anthropic",
         "openai"
       ]
     },
     {
-      "modelName": "rel/Claude-sonnet-4-5-20250929",
+      "modelName": "rel/claude-sonnet-4-5-20250929",
       "vendorName": "Anthropic",
       "vendorIcon": "Claude.Color",
       "inputPrice": 6,
-      "outputPrice": 21,
+      "outputPrice": 30,
       "modelRatio": 3,
-      "completionRatio": 3.5,
+      "completionRatio": 5,
       "endpoints": [
         "anthropic",
         "openai"
@@ -184,7 +197,20 @@
       ]
     },
     {
-      "modelName": "Claude-opus-4-6",
+      "modelName": "no/claude-opus-4-5",
+      "vendorName": "Unknown",
+      "vendorIcon": "Claude.Color",
+      "inputPrice": 15,
+      "outputPrice": 75,
+      "modelRatio": 7.5,
+      "completionRatio": 5,
+      "endpoints": [
+        "anthropic",
+        "openai"
+      ]
+    },
+    {
+      "modelName": "no/claude-opus-4-6",
       "vendorName": "Unknown",
       "vendorIcon": "Claude.Color",
       "inputPrice": 8,
@@ -197,64 +223,12 @@
       ]
     },
     {
-      "modelName": "Claude-sonnet-4-5-20250929",
+      "modelName": "no/claude-sonnet-4-5-20250929",
       "vendorName": "Unknown",
       "vendorIcon": "Claude.Color",
       "inputPrice": 22,
-      "outputPrice": 166.2406,
+      "outputPrice": 110,
       "modelRatio": 11,
-      "completionRatio": 7.556390977443609,
-      "endpoints": [
-        "anthropic",
-        "openai"
-      ]
-    },
-    {
-      "modelName": "Claude-sonnet-4-6",
-      "vendorName": "Unknown",
-      "vendorIcon": "Claude.Color",
-      "inputPrice": 4,
-      "outputPrice": 19,
-      "modelRatio": 2,
-      "completionRatio": 4.75,
-      "endpoints": [
-        "anthropic",
-        "openai"
-      ]
-    },
-    {
-      "modelName": "no/Claude Opus 4.5",
-      "vendorName": "Unknown",
-      "vendorIcon": "Claude.Color",
-      "inputPrice": 15,
-      "outputPrice": 77,
-      "modelRatio": 7.5,
-      "completionRatio": 5.133333333333334,
-      "endpoints": [
-        "anthropic",
-        "openai"
-      ]
-    },
-    {
-      "modelName": "rel/Claude-sonnet-4-6",
-      "vendorName": "Unknown",
-      "vendorIcon": "Claude.Color",
-      "inputPrice": 9,
-      "outputPrice": 28,
-      "modelRatio": 4.5,
-      "completionRatio": 3.111111111111111,
-      "endpoints": [
-        "anthropic",
-        "openai"
-      ]
-    },
-    {
-      "modelName": "tp/Claude-4-6-Sonnet",
-      "vendorName": "Unknown",
-      "vendorIcon": "Claude.Color",
-      "inputPrice": 13,
-      "outputPrice": 65,
-      "modelRatio": 6.5,
       "completionRatio": 5,
       "endpoints": [
         "anthropic",
@@ -262,13 +236,26 @@
       ]
     },
     {
-      "modelName": "tp/Claude-opus-4.6",
+      "modelName": "tp/claude-opus-4-6",
       "vendorName": "Unknown",
       "vendorIcon": "Claude.Color",
       "inputPrice": 16,
-      "outputPrice": 72,
+      "outputPrice": 80,
       "modelRatio": 8,
-      "completionRatio": 4.5,
+      "completionRatio": 5,
+      "endpoints": [
+        "anthropic",
+        "openai"
+      ]
+    },
+    {
+      "modelName": "tp/claude-sonnet-4-6",
+      "vendorName": "Unknown",
+      "vendorIcon": "Claude.Color",
+      "inputPrice": 13,
+      "outputPrice": 65,
+      "modelRatio": 6.5,
+      "completionRatio": 5,
       "endpoints": [
         "anthropic",
         "openai"
@@ -288,13 +275,13 @@
       ]
     },
     {
-      "modelName": "tp/Grok-4.2",
+      "modelName": "tp/xai-grok-4-2",
       "vendorName": "Unknown",
-      "vendorIcon": "Grok",
+      "vendorIcon": "",
       "inputPrice": 12,
-      "outputPrice": 72,
+      "outputPrice": 12,
       "modelRatio": 6,
-      "completionRatio": 6,
+      "completionRatio": 1,
       "endpoints": [
         "anthropic",
         "openai"

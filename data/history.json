@@ -1,5 +1,237 @@
 [
   {
+    "modelName": "air/claude-haiku-4-5-20251001",
+    "vendorName": "Anthropic",
+    "type": "new",
+    "inputPrice": 4,
+    "outputPrice": 20,
+    "timestamp": "2026-04-16T14:57:33.824Z"
+  },
+  {
+    "modelName": "air/claude-opus-4-5",
+    "vendorName": "Anthropic",
+    "type": "new",
+    "inputPrice": 13,
+    "outputPrice": 65,
+    "timestamp": "2026-04-16T14:57:33.824Z"
+  },
+  {
+    "modelName": "air/claude-opus-4-6",
+    "vendorName": "Anthropic",
+    "type": "new",
+    "inputPrice": 19,
+    "outputPrice": 95,
+    "timestamp": "2026-04-16T14:57:33.824Z"
+  },
+  {
+    "modelName": "air/claude-sonnet-4-5",
+    "vendorName": "Anthropic",
+    "type": "new",
+    "inputPrice": 4,
+    "outputPrice": 20,
+    "timestamp": "2026-04-16T14:57:33.824Z"
+  },
+  {
+    "modelName": "air/claude-sonnet-4-6",
+    "vendorName": "Anthropic",
+    "type": "new",
+    "inputPrice": 15,
+    "outputPrice": 75,
+    "timestamp": "2026-04-16T14:57:33.824Z"
+  },
+  {
+    "modelName": "no/claude-sonnet-4-6",
+    "vendorName": "Anthropic",
+    "type": "new",
+    "inputPrice": 8,
+    "outputPrice": 40,
+    "timestamp": "2026-04-16T14:57:33.824Z"
+  },
+  {
+    "modelName": "rel/claude-haiku-4-5",
+    "vendorName": "Anthropic",
+    "type": "new",
+    "inputPrice": 2.2,
+    "outputPrice": 11,
+    "timestamp": "2026-04-16T14:57:33.824Z"
+  },
+  {
+    "modelName": "rel/claude-sonnet-4-5-20250929",
+    "vendorName": "Anthropic",
+    "type": "new",
+    "inputPrice": 6,
+    "outputPrice": 30,
+    "timestamp": "2026-04-16T14:57:33.824Z"
+  },
+  {
+    "modelName": "no/claude-opus-4-5",
+    "vendorName": "Unknown",
+    "type": "new",
+    "inputPrice": 15,
+    "outputPrice": 75,
+    "timestamp": "2026-04-16T14:57:33.824Z"
+  },
+  {
+    "modelName": "no/claude-opus-4-6",
+    "vendorName": "Unknown",
+    "type": "new",
+    "inputPrice": 8,
+    "outputPrice": 40,
+    "timestamp": "2026-04-16T14:57:33.824Z"
+  },
+  {
+    "modelName": "no/claude-sonnet-4-5-20250929",
+    "vendorName": "Unknown",
+    "type": "new",
+    "inputPrice": 22,
+    "outputPrice": 110,
+    "timestamp": "2026-04-16T14:57:33.824Z"
+  },
+  {
+    "modelName": "tp/claude-opus-4-6",
+    "vendorName": "Unknown",
+    "type": "new",
+    "inputPrice": 16,
+    "outputPrice": 80,
+    "timestamp": "2026-04-16T14:57:33.824Z"
+  },
+  {
+    "modelName": "tp/claude-sonnet-4-6",
+    "vendorName": "Unknown",
+    "type": "new",
+    "inputPrice": 13,
+    "outputPrice": 65,
+    "timestamp": "2026-04-16T14:57:33.824Z"
+  },
+  {
+    "modelName": "tp/xai-grok-4-2",
+    "vendorName": "Unknown",
+    "type": "new",
+    "inputPrice": 12,
+    "outputPrice": 12,
+    "timestamp": "2026-04-16T14:57:33.824Z"
+  },
+  {
+    "modelName": "Claude-haiku-4-5-20251001-fast",
+    "vendorName": "Anthropic",
+    "type": "removed",
+    "inputPrice": 4,
+    "outputPrice": 19,
+    "timestamp": "2026-04-16T14:57:33.824Z"
+  },
+  {
+    "modelName": "Claude-opus-4-5-fast",
+    "vendorName": "Anthropic",
+    "type": "removed",
+    "inputPrice": 13,
+    "outputPrice": 66,
+    "timestamp": "2026-04-16T14:57:33.824Z"
+  },
+  {
+    "modelName": "Claude-opus-4-6-fast",
+    "vendorName": "Anthropic",
+    "type": "removed",
+    "inputPrice": 19,
+    "outputPrice": 96,
+    "timestamp": "2026-04-16T14:57:33.824Z"
+  },
+  {
+    "modelName": "Claude-sonnet-4-6-fast",
+    "vendorName": "Anthropic",
+    "type": "removed",
+    "inputPrice": 15,
+    "outputPrice": 70,
+    "timestamp": "2026-04-16T14:57:33.824Z"
+  },
+  {
+    "modelName": "no/Claude-sonnet-4-6",
+    "vendorName": "Anthropic",
+    "type": "removed",
+    "inputPrice": 8,
+    "outputPrice": 20,
+    "timestamp": "2026-04-16T14:57:33.824Z"
+  },
+  {
+    "modelName": "rel/Claude-haiku-4-5",
+    "vendorName": "Anthropic",
+    "type": "removed",
+    "inputPrice": 2.2,
+    "outputPrice": 10.3,
+    "timestamp": "2026-04-16T14:57:33.824Z"
+  },
+  {
+    "modelName": "rel/Claude-sonnet-4-5-20250929",
+    "vendorName": "Anthropic",
+    "type": "removed",
+    "inputPrice": 6,
+    "outputPrice": 21,
+    "timestamp": "2026-04-16T14:57:33.824Z"
+  },
+  {
+    "modelName": "Claude-opus-4-6",
+    "vendorName": "Unknown",
+    "type": "removed",
+    "inputPrice": 8,
+    "outputPrice": 40,
+    "timestamp": "2026-04-16T14:57:33.824Z"
+  },
+  {
+    "modelName": "Claude-sonnet-4-5-20250929",
+    "vendorName": "Unknown",
+    "type": "removed",
+    "inputPrice": 22,
+    "outputPrice": 166.2406,
+    "timestamp": "2026-04-16T14:57:33.824Z"
+  },
+  {
+    "modelName": "Claude-sonnet-4-6",
+    "vendorName": "Unknown",
+    "type": "removed",
+    "inputPrice": 4,
+    "outputPrice": 19,
+    "timestamp": "2026-04-16T14:57:33.824Z"
+  },
+  {
+    "modelName": "no/Claude Opus 4.5",
+    "vendorName": "Unknown",
+    "type": "removed",
+    "inputPrice": 15,
+    "outputPrice": 77,
+    "timestamp": "2026-04-16T14:57:33.824Z"
+  },
+  {
+    "modelName": "rel/Claude-sonnet-4-6",
+    "vendorName": "Unknown",
+    "type": "removed",
+    "inputPrice": 9,
+    "outputPrice": 28,
+    "timestamp": "2026-04-16T14:57:33.824Z"
+  },
+  {
+    "modelName": "tp/Claude-4-6-Sonnet",
+    "vendorName": "Unknown",
+    "type": "removed",
+    "inputPrice": 13,
+    "outputPrice": 65,
+    "timestamp": "2026-04-16T14:57:33.824Z"
+  },
+  {
+    "modelName": "tp/Claude-opus-4.6",
+    "vendorName": "Unknown",
+    "type": "removed",
+    "inputPrice": 16,
+    "outputPrice": 72,
+    "timestamp": "2026-04-16T14:57:33.824Z"
+  },
+  {
+    "modelName": "tp/Grok-4.2",
+    "vendorName": "Unknown",
+    "type": "removed",
+    "inputPrice": 12,
+    "outputPrice": 72,
+    "timestamp": "2026-04-16T14:57:33.824Z"
+  },
+  {
     "modelName": "ki/claude-opus-4-6",
     "vendorName": "Anthropic",
     "type": "new",
