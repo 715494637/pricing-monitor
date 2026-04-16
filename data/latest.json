@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-04-16T14:57:33.825Z",
+  "timestamp": "2026-04-16T16:27:21.945Z",
   "prices": [
     {
       "modelName": "air/claude-haiku-4-5-20251001",
@@ -158,13 +158,26 @@
       ]
     },
     {
-      "modelName": "rel/gpt-5.3-codex",
-      "vendorName": "OpenAI",
-      "vendorIcon": "OpenAI.Color",
-      "inputPrice": 2,
-      "outputPrice": 10,
-      "modelRatio": 1,
-      "completionRatio": 5,
+      "modelName": "rel/gemini-3-flash-preview",
+      "vendorName": "Google",
+      "vendorIcon": "Gemini.Color",
+      "inputPrice": 6,
+      "outputPrice": 6,
+      "modelRatio": 3,
+      "completionRatio": 1,
+      "endpoints": [
+        "anthropic",
+        "openai"
+      ]
+    },
+    {
+      "modelName": "rel/gemini-3.1-pro-preview",
+      "vendorName": "Google",
+      "vendorIcon": "Gemini.Color",
+      "inputPrice": 6,
+      "outputPrice": 6,
+      "modelRatio": 3,
+      "completionRatio": 1,
       "endpoints": [
         "anthropic",
         "openai"

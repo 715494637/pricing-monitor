@@ -1,5 +1,29 @@
 [
   {
+    "modelName": "rel/gemini-3-flash-preview",
+    "vendorName": "Google",
+    "type": "new",
+    "inputPrice": 6,
+    "outputPrice": 6,
+    "timestamp": "2026-04-16T16:27:21.945Z"
+  },
+  {
+    "modelName": "rel/gemini-3.1-pro-preview",
+    "vendorName": "Google",
+    "type": "new",
+    "inputPrice": 6,
+    "outputPrice": 6,
+    "timestamp": "2026-04-16T16:27:21.945Z"
+  },
+  {
+    "modelName": "rel/gpt-5.3-codex",
+    "vendorName": "OpenAI",
+    "type": "removed",
+    "inputPrice": 2,
+    "outputPrice": 10,
+    "timestamp": "2026-04-16T16:27:21.945Z"
+  },
+  {
     "modelName": "air/claude-haiku-4-5-20251001",
     "vendorName": "Anthropic",
     "type": "new",
