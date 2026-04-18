@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-04-18T09:12:31.273Z",
+  "timestamp": "2026-04-18T10:08:03.324Z",
   "prices": [
     {
       "modelName": "air/claude-haiku-4-5-20251001",
@@ -174,9 +174,9 @@
       "modelName": "gpt-5.2",
       "vendorName": "OpenAI",
       "vendorIcon": "OpenAI.Color",
-      "inputPrice": 22,
-      "outputPrice": 176,
-      "modelRatio": 11,
+      "inputPrice": 16,
+      "outputPrice": 128,
+      "modelRatio": 8,
       "completionRatio": 8,
       "endpoints": [
         "openai"
@@ -186,9 +186,9 @@
       "modelName": "gpt-5.3-codex",
       "vendorName": "OpenAI",
       "vendorIcon": "OpenAI.Color",
-      "inputPrice": 75,
-      "outputPrice": 600,
-      "modelRatio": 37.5,
+      "inputPrice": 16,
+      "outputPrice": 128,
+      "modelRatio": 8,
       "completionRatio": 8,
       "endpoints": [
         "openai"
@@ -198,21 +198,9 @@
       "modelName": "gpt-5.4",
       "vendorName": "OpenAI",
       "vendorIcon": "OpenAI.Color",
-      "inputPrice": 20,
-      "outputPrice": 160,
-      "modelRatio": 10,
-      "completionRatio": 8,
-      "endpoints": [
-        "openai"
-      ]
-    },
-    {
-      "modelName": "gpt-5.4-mini",
-      "vendorName": "OpenAI",
-      "vendorIcon": "OpenAI.Color",
-      "inputPrice": 75,
-      "outputPrice": 600,
-      "modelRatio": 37.5,
+      "inputPrice": 16,
+      "outputPrice": 128,
+      "modelRatio": 8,
       "completionRatio": 8,
       "endpoints": [
         "openai"
@@ -306,18 +294,6 @@
       "completionRatio": 1,
       "endpoints": [
         "anthropic",
-        "openai"
-      ]
-    },
-    {
-      "modelName": "gpt-5.3-codex-spark",
-      "vendorName": "讯飞",
-      "vendorIcon": "Spark.Color",
-      "inputPrice": 75,
-      "outputPrice": 600,
-      "modelRatio": 37.5,
-      "completionRatio": 8,
-      "endpoints": [
         "openai"
       ]
     }

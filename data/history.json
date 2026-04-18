@@ -2,6 +2,52 @@
   {
     "modelName": "gpt-5.2",
     "vendorName": "OpenAI",
+    "type": "price_change",
+    "oldInput": 22,
+    "newInput": 16,
+    "oldOutput": 176,
+    "newOutput": 128,
+    "timestamp": "2026-04-18T10:08:03.323Z"
+  },
+  {
+    "modelName": "gpt-5.3-codex",
+    "vendorName": "OpenAI",
+    "type": "price_change",
+    "oldInput": 75,
+    "newInput": 16,
+    "oldOutput": 600,
+    "newOutput": 128,
+    "timestamp": "2026-04-18T10:08:03.323Z"
+  },
+  {
+    "modelName": "gpt-5.4",
+    "vendorName": "OpenAI",
+    "type": "price_change",
+    "oldInput": 20,
+    "newInput": 16,
+    "oldOutput": 160,
+    "newOutput": 128,
+    "timestamp": "2026-04-18T10:08:03.323Z"
+  },
+  {
+    "modelName": "gpt-5.4-mini",
+    "vendorName": "OpenAI",
+    "type": "removed",
+    "inputPrice": 75,
+    "outputPrice": 600,
+    "timestamp": "2026-04-18T10:08:03.323Z"
+  },
+  {
+    "modelName": "gpt-5.3-codex-spark",
+    "vendorName": "讯飞",
+    "type": "removed",
+    "inputPrice": 75,
+    "outputPrice": 600,
+    "timestamp": "2026-04-18T10:08:03.323Z"
+  },
+  {
+    "modelName": "gpt-5.2",
+    "vendorName": "OpenAI",
     "type": "new",
     "inputPrice": 22,
     "outputPrice": 176,
