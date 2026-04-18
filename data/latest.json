@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-04-16T16:27:21.945Z",
+  "timestamp": "2026-04-18T09:12:31.273Z",
   "prices": [
     {
       "modelName": "air/claude-haiku-4-5-20251001",
@@ -145,19 +145,6 @@
       ]
     },
     {
-      "modelName": "no/Pi Gemini 3.1 Pro",
-      "vendorName": "Google",
-      "vendorIcon": "Gemini.Color",
-      "inputPrice": 15,
-      "outputPrice": 77,
-      "modelRatio": 7.5,
-      "completionRatio": 5.133333333333334,
-      "endpoints": [
-        "anthropic",
-        "openai"
-      ]
-    },
-    {
       "modelName": "rel/gemini-3-flash-preview",
       "vendorName": "Google",
       "vendorIcon": "Gemini.Color",
@@ -184,15 +171,50 @@
       ]
     },
     {
-      "modelName": "rel/gpt-5.4",
+      "modelName": "gpt-5.2",
       "vendorName": "OpenAI",
       "vendorIcon": "OpenAI.Color",
-      "inputPrice": 14,
-      "outputPrice": 28,
-      "modelRatio": 7,
-      "completionRatio": 2,
+      "inputPrice": 22,
+      "outputPrice": 176,
+      "modelRatio": 11,
+      "completionRatio": 8,
       "endpoints": [
-        "anthropic",
+        "openai"
+      ]
+    },
+    {
+      "modelName": "gpt-5.3-codex",
+      "vendorName": "OpenAI",
+      "vendorIcon": "OpenAI.Color",
+      "inputPrice": 75,
+      "outputPrice": 600,
+      "modelRatio": 37.5,
+      "completionRatio": 8,
+      "endpoints": [
+        "openai"
+      ]
+    },
+    {
+      "modelName": "gpt-5.4",
+      "vendorName": "OpenAI",
+      "vendorIcon": "OpenAI.Color",
+      "inputPrice": 20,
+      "outputPrice": 160,
+      "modelRatio": 10,
+      "completionRatio": 8,
+      "endpoints": [
+        "openai"
+      ]
+    },
+    {
+      "modelName": "gpt-5.4-mini",
+      "vendorName": "OpenAI",
+      "vendorIcon": "OpenAI.Color",
+      "inputPrice": 75,
+      "outputPrice": 600,
+      "modelRatio": 37.5,
+      "completionRatio": 8,
+      "endpoints": [
         "openai"
       ]
     },
@@ -275,19 +297,6 @@
       ]
     },
     {
-      "modelName": "tp/gpt-5.4",
-      "vendorName": "Unknown",
-      "vendorIcon": "OpenAI.Color",
-      "inputPrice": 18,
-      "outputPrice": 126,
-      "modelRatio": 9,
-      "completionRatio": 7,
-      "endpoints": [
-        "anthropic",
-        "openai"
-      ]
-    },
-    {
       "modelName": "tp/xai-grok-4-2",
       "vendorName": "Unknown",
       "vendorIcon": "",
@@ -297,6 +306,18 @@
       "completionRatio": 1,
       "endpoints": [
         "anthropic",
+        "openai"
+      ]
+    },
+    {
+      "modelName": "gpt-5.3-codex-spark",
+      "vendorName": "讯飞",
+      "vendorIcon": "Spark.Color",
+      "inputPrice": 75,
+      "outputPrice": 600,
+      "modelRatio": 37.5,
+      "completionRatio": 8,
+      "endpoints": [
         "openai"
       ]
     }

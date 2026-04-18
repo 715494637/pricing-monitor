@@ -1,5 +1,69 @@
 [
   {
+    "modelName": "gpt-5.2",
+    "vendorName": "OpenAI",
+    "type": "new",
+    "inputPrice": 22,
+    "outputPrice": 176,
+    "timestamp": "2026-04-18T09:12:31.273Z"
+  },
+  {
+    "modelName": "gpt-5.3-codex",
+    "vendorName": "OpenAI",
+    "type": "new",
+    "inputPrice": 75,
+    "outputPrice": 600,
+    "timestamp": "2026-04-18T09:12:31.273Z"
+  },
+  {
+    "modelName": "gpt-5.4",
+    "vendorName": "OpenAI",
+    "type": "new",
+    "inputPrice": 20,
+    "outputPrice": 160,
+    "timestamp": "2026-04-18T09:12:31.273Z"
+  },
+  {
+    "modelName": "gpt-5.4-mini",
+    "vendorName": "OpenAI",
+    "type": "new",
+    "inputPrice": 75,
+    "outputPrice": 600,
+    "timestamp": "2026-04-18T09:12:31.273Z"
+  },
+  {
+    "modelName": "gpt-5.3-codex-spark",
+    "vendorName": "讯飞",
+    "type": "new",
+    "inputPrice": 75,
+    "outputPrice": 600,
+    "timestamp": "2026-04-18T09:12:31.273Z"
+  },
+  {
+    "modelName": "no/Pi Gemini 3.1 Pro",
+    "vendorName": "Google",
+    "type": "removed",
+    "inputPrice": 15,
+    "outputPrice": 77,
+    "timestamp": "2026-04-18T09:12:31.273Z"
+  },
+  {
+    "modelName": "rel/gpt-5.4",
+    "vendorName": "OpenAI",
+    "type": "removed",
+    "inputPrice": 14,
+    "outputPrice": 28,
+    "timestamp": "2026-04-18T09:12:31.273Z"
+  },
+  {
+    "modelName": "tp/gpt-5.4",
+    "vendorName": "Unknown",
+    "type": "removed",
+    "inputPrice": 18,
+    "outputPrice": 126,
+    "timestamp": "2026-04-18T09:12:31.273Z"
+  },
+  {
     "modelName": "rel/gemini-3-flash-preview",
     "vendorName": "Google",
     "type": "new",
