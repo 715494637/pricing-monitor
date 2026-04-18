@@ -1,5 +1,13 @@
 [
   {
+    "modelName": "tp/claude-opus-4-7",
+    "vendorName": "Anthropic",
+    "type": "new",
+    "inputPrice": 21.84,
+    "outputPrice": 125.58,
+    "timestamp": "2026-04-18T17:06:03.650Z"
+  },
+  {
     "modelName": "gpt-5.2",
     "vendorName": "OpenAI",
     "type": "price_change",
