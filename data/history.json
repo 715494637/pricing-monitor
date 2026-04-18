@@ -1,5 +1,221 @@
 [
   {
+    "modelName": "no/claude-haiku-4-5",
+    "vendorName": "Anthropic",
+    "type": "new",
+    "inputPrice": 75,
+    "outputPrice": 375,
+    "timestamp": "2026-04-18T19:22:45.935Z"
+  },
+  {
+    "modelName": "no/claude-opus-4-7",
+    "vendorName": "Anthropic",
+    "type": "new",
+    "inputPrice": 75,
+    "outputPrice": 375,
+    "timestamp": "2026-04-18T19:22:45.935Z"
+  },
+  {
+    "modelName": "no/claude-opus-4-7-high",
+    "vendorName": "Anthropic",
+    "type": "new",
+    "inputPrice": 75,
+    "outputPrice": 375,
+    "timestamp": "2026-04-18T19:22:45.935Z"
+  },
+  {
+    "modelName": "no/claude-opus-4-7-low",
+    "vendorName": "Anthropic",
+    "type": "new",
+    "inputPrice": 75,
+    "outputPrice": 375,
+    "timestamp": "2026-04-18T19:22:45.935Z"
+  },
+  {
+    "modelName": "tp/claude-haiku-4-5-20251001",
+    "vendorName": "Anthropic",
+    "type": "new",
+    "inputPrice": 75,
+    "outputPrice": 375,
+    "timestamp": "2026-04-18T19:22:45.935Z"
+  },
+  {
+    "modelName": "no/gemini-3-1-pro",
+    "vendorName": "Google",
+    "type": "new",
+    "inputPrice": 75,
+    "outputPrice": 75,
+    "timestamp": "2026-04-18T19:22:45.935Z"
+  },
+  {
+    "modelName": "no/gemini-3-flash",
+    "vendorName": "Google",
+    "type": "new",
+    "inputPrice": 75,
+    "outputPrice": 75,
+    "timestamp": "2026-04-18T19:22:45.935Z"
+  },
+  {
+    "modelName": "no/gemini-3.1-pro-pi",
+    "vendorName": "Google",
+    "type": "new",
+    "inputPrice": 75,
+    "outputPrice": 75,
+    "timestamp": "2026-04-18T19:22:45.935Z"
+  },
+  {
+    "modelName": "tp/gemini-3-flash",
+    "vendorName": "Google",
+    "type": "new",
+    "inputPrice": 75,
+    "outputPrice": 75,
+    "timestamp": "2026-04-18T19:22:45.935Z"
+  },
+  {
+    "modelName": "tp/gemini-3.1-pro-preview",
+    "vendorName": "Google",
+    "type": "new",
+    "inputPrice": 75,
+    "outputPrice": 75,
+    "timestamp": "2026-04-18T19:22:45.935Z"
+  },
+  {
+    "modelName": "no/gpt-5-2-high",
+    "vendorName": "OpenAI",
+    "type": "new",
+    "inputPrice": 75,
+    "outputPrice": 75,
+    "timestamp": "2026-04-18T19:22:45.935Z"
+  },
+  {
+    "modelName": "no/gpt-5-4-high",
+    "vendorName": "OpenAI",
+    "type": "new",
+    "inputPrice": 75,
+    "outputPrice": 75,
+    "timestamp": "2026-04-18T19:22:45.935Z"
+  },
+  {
+    "modelName": "no/gpt-5-4-low",
+    "vendorName": "OpenAI",
+    "type": "new",
+    "inputPrice": 75,
+    "outputPrice": 75,
+    "timestamp": "2026-04-18T19:22:45.935Z"
+  },
+  {
+    "modelName": "no/gpt-5-4-medium",
+    "vendorName": "OpenAI",
+    "type": "new",
+    "inputPrice": 75,
+    "outputPrice": 75,
+    "timestamp": "2026-04-18T19:22:45.935Z"
+  },
+  {
+    "modelName": "rel/gpt-5.2",
+    "vendorName": "OpenAI",
+    "type": "new",
+    "inputPrice": 75,
+    "outputPrice": 75,
+    "timestamp": "2026-04-18T19:22:45.935Z"
+  },
+  {
+    "modelName": "rel/gpt-5.2-pro",
+    "vendorName": "OpenAI",
+    "type": "new",
+    "inputPrice": 75,
+    "outputPrice": 75,
+    "timestamp": "2026-04-18T19:22:45.935Z"
+  },
+  {
+    "modelName": "rel/gpt-5.4",
+    "vendorName": "OpenAI",
+    "type": "new",
+    "inputPrice": 14,
+    "outputPrice": 28,
+    "timestamp": "2026-04-18T19:22:45.935Z"
+  },
+  {
+    "modelName": "rel/gpt-5.4-mini",
+    "vendorName": "OpenAI",
+    "type": "new",
+    "inputPrice": 75,
+    "outputPrice": 75,
+    "timestamp": "2026-04-18T19:22:45.935Z"
+  },
+  {
+    "modelName": "rel/gpt-5.4-nano",
+    "vendorName": "OpenAI",
+    "type": "new",
+    "inputPrice": 75,
+    "outputPrice": 75,
+    "timestamp": "2026-04-18T19:22:45.935Z"
+  },
+  {
+    "modelName": "tp/OpenAIgpt54Mini",
+    "vendorName": "OpenAI",
+    "type": "new",
+    "inputPrice": 75,
+    "outputPrice": 75,
+    "timestamp": "2026-04-18T19:22:45.935Z"
+  },
+  {
+    "modelName": "tp/OpenAIgpt54Nano",
+    "vendorName": "OpenAI",
+    "type": "new",
+    "inputPrice": 75,
+    "outputPrice": 75,
+    "timestamp": "2026-04-18T19:22:45.935Z"
+  },
+  {
+    "modelName": "tp/gpt-5.4",
+    "vendorName": "Unknown",
+    "type": "new",
+    "inputPrice": 18,
+    "outputPrice": 126,
+    "timestamp": "2026-04-18T19:22:45.935Z"
+  },
+  {
+    "modelName": "tp/grok-4-2",
+    "vendorName": "xAI",
+    "type": "new",
+    "inputPrice": 75,
+    "outputPrice": 75,
+    "timestamp": "2026-04-18T19:22:45.935Z"
+  },
+  {
+    "modelName": "tp/grok-4.1-fast",
+    "vendorName": "xAI",
+    "type": "new",
+    "inputPrice": 75,
+    "outputPrice": 75,
+    "timestamp": "2026-04-18T19:22:45.935Z"
+  },
+  {
+    "modelName": "ki/claude-opus-4-6",
+    "vendorName": "Anthropic",
+    "type": "removed",
+    "inputPrice": 50,
+    "outputPrice": 150,
+    "timestamp": "2026-04-18T19:22:45.935Z"
+  },
+  {
+    "modelName": "no/claude-sonnet-4-5-20250929",
+    "vendorName": "Unknown",
+    "type": "removed",
+    "inputPrice": 22,
+    "outputPrice": 110,
+    "timestamp": "2026-04-18T19:22:45.935Z"
+  },
+  {
+    "modelName": "tp/xai-grok-4-2",
+    "vendorName": "Unknown",
+    "type": "removed",
+    "inputPrice": 12,
+    "outputPrice": 12,
+    "timestamp": "2026-04-18T19:22:45.935Z"
+  },
+  {
     "modelName": "tp/claude-opus-4-7",
     "vendorName": "Anthropic",
     "type": "new",
