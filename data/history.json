@@ -1,5 +1,59 @@
 [
   {
+    "modelName": "no/claude-opus-4-7",
+    "vendorName": "Anthropic",
+    "type": "price_change",
+    "oldInput": 75,
+    "newInput": 19,
+    "oldOutput": 375,
+    "newOutput": 105.45,
+    "timestamp": "2026-04-19T07:23:11.437Z"
+  },
+  {
+    "modelName": "no/claude-opus-4-7-high",
+    "vendorName": "Anthropic",
+    "type": "price_change",
+    "oldInput": 75,
+    "newInput": 19.76,
+    "oldOutput": 375,
+    "newOutput": 111.644,
+    "timestamp": "2026-04-19T07:23:11.437Z"
+  },
+  {
+    "modelName": "no/claude-opus-4-7-low",
+    "vendorName": "Anthropic",
+    "type": "price_change",
+    "oldInput": 75,
+    "newInput": 18.4,
+    "oldOutput": 375,
+    "newOutput": 96.6,
+    "timestamp": "2026-04-19T07:23:11.437Z"
+  },
+  {
+    "modelName": "gpt-5.2",
+    "vendorName": "OpenAI",
+    "type": "removed",
+    "inputPrice": 16,
+    "outputPrice": 128,
+    "timestamp": "2026-04-19T07:23:11.437Z"
+  },
+  {
+    "modelName": "gpt-5.3-codex",
+    "vendorName": "OpenAI",
+    "type": "removed",
+    "inputPrice": 16,
+    "outputPrice": 128,
+    "timestamp": "2026-04-19T07:23:11.437Z"
+  },
+  {
+    "modelName": "gpt-5.4",
+    "vendorName": "OpenAI",
+    "type": "removed",
+    "inputPrice": 16,
+    "outputPrice": 128,
+    "timestamp": "2026-04-19T07:23:11.437Z"
+  },
+  {
     "modelName": "no/claude-haiku-4-5",
     "vendorName": "Anthropic",
     "type": "new",

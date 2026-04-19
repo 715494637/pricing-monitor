@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-04-18T19:22:45.935Z",
+  "timestamp": "2026-04-19T07:23:11.438Z",
   "prices": [
     {
       "modelName": "air/claude-haiku-4-5-20251001",
@@ -83,10 +83,10 @@
       "modelName": "no/claude-opus-4-7",
       "vendorName": "Anthropic",
       "vendorIcon": "Claude.Color",
-      "inputPrice": 75,
-      "outputPrice": 375,
-      "modelRatio": 37.5,
-      "completionRatio": 5,
+      "inputPrice": 19,
+      "outputPrice": 105.45,
+      "modelRatio": 9.5,
+      "completionRatio": 5.55,
       "endpoints": [
         "anthropic",
         "openai"
@@ -96,10 +96,10 @@
       "modelName": "no/claude-opus-4-7-high",
       "vendorName": "Anthropic",
       "vendorIcon": "Claude.Color",
-      "inputPrice": 75,
-      "outputPrice": 375,
-      "modelRatio": 37.5,
-      "completionRatio": 5,
+      "inputPrice": 19.76,
+      "outputPrice": 111.644,
+      "modelRatio": 9.88,
+      "completionRatio": 5.65,
       "endpoints": [
         "anthropic",
         "openai"
@@ -109,10 +109,10 @@
       "modelName": "no/claude-opus-4-7-low",
       "vendorName": "Anthropic",
       "vendorIcon": "Claude.Color",
-      "inputPrice": 75,
-      "outputPrice": 375,
-      "modelRatio": 37.5,
-      "completionRatio": 5,
+      "inputPrice": 18.4,
+      "outputPrice": 96.6,
+      "modelRatio": 9.2,
+      "completionRatio": 5.25,
       "endpoints": [
         "anthropic",
         "openai"
@@ -297,42 +297,6 @@
       "completionRatio": 1,
       "endpoints": [
         "anthropic",
-        "openai"
-      ]
-    },
-    {
-      "modelName": "gpt-5.2",
-      "vendorName": "OpenAI",
-      "vendorIcon": "OpenAI.Color",
-      "inputPrice": 16,
-      "outputPrice": 128,
-      "modelRatio": 8,
-      "completionRatio": 8,
-      "endpoints": [
-        "openai"
-      ]
-    },
-    {
-      "modelName": "gpt-5.3-codex",
-      "vendorName": "OpenAI",
-      "vendorIcon": "OpenAI.Color",
-      "inputPrice": 16,
-      "outputPrice": 128,
-      "modelRatio": 8,
-      "completionRatio": 8,
-      "endpoints": [
-        "openai"
-      ]
-    },
-    {
-      "modelName": "gpt-5.4",
-      "vendorName": "OpenAI",
-      "vendorIcon": "OpenAI.Color",
-      "inputPrice": 16,
-      "outputPrice": 128,
-      "modelRatio": 8,
-      "completionRatio": 8,
-      "endpoints": [
         "openai"
       ]
     },
