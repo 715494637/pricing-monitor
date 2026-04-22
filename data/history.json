@@ -1,5 +1,93 @@
 [
   {
+    "modelName": "tp/claude-haiku-4-5-20251001",
+    "vendorName": "Anthropic",
+    "type": "removed",
+    "inputPrice": 75,
+    "outputPrice": 375,
+    "timestamp": "2026-04-22T08:15:56.523Z"
+  },
+  {
+    "modelName": "tp/claude-opus-4-7",
+    "vendorName": "Anthropic",
+    "type": "removed",
+    "inputPrice": 21.84,
+    "outputPrice": 125.58,
+    "timestamp": "2026-04-22T08:15:56.523Z"
+  },
+  {
+    "modelName": "tp/gemini-3-flash",
+    "vendorName": "Google",
+    "type": "removed",
+    "inputPrice": 75,
+    "outputPrice": 75,
+    "timestamp": "2026-04-22T08:15:56.523Z"
+  },
+  {
+    "modelName": "tp/gemini-3.1-pro-preview",
+    "vendorName": "Google",
+    "type": "removed",
+    "inputPrice": 75,
+    "outputPrice": 75,
+    "timestamp": "2026-04-22T08:15:56.523Z"
+  },
+  {
+    "modelName": "tp/OpenAIgpt54Mini",
+    "vendorName": "OpenAI",
+    "type": "removed",
+    "inputPrice": 75,
+    "outputPrice": 75,
+    "timestamp": "2026-04-22T08:15:56.523Z"
+  },
+  {
+    "modelName": "tp/OpenAIgpt54Nano",
+    "vendorName": "OpenAI",
+    "type": "removed",
+    "inputPrice": 75,
+    "outputPrice": 75,
+    "timestamp": "2026-04-22T08:15:56.523Z"
+  },
+  {
+    "modelName": "tp/claude-opus-4-6",
+    "vendorName": "Unknown",
+    "type": "removed",
+    "inputPrice": 16,
+    "outputPrice": 80,
+    "timestamp": "2026-04-22T08:15:56.523Z"
+  },
+  {
+    "modelName": "tp/claude-sonnet-4-6",
+    "vendorName": "Unknown",
+    "type": "removed",
+    "inputPrice": 13,
+    "outputPrice": 65,
+    "timestamp": "2026-04-22T08:15:56.523Z"
+  },
+  {
+    "modelName": "tp/gpt-5.4",
+    "vendorName": "Unknown",
+    "type": "removed",
+    "inputPrice": 18,
+    "outputPrice": 126,
+    "timestamp": "2026-04-22T08:15:56.523Z"
+  },
+  {
+    "modelName": "tp/grok-4-2",
+    "vendorName": "xAI",
+    "type": "removed",
+    "inputPrice": 75,
+    "outputPrice": 75,
+    "timestamp": "2026-04-22T08:15:56.523Z"
+  },
+  {
+    "modelName": "tp/grok-4.1-fast",
+    "vendorName": "xAI",
+    "type": "removed",
+    "inputPrice": 75,
+    "outputPrice": 75,
+    "timestamp": "2026-04-22T08:15:56.523Z"
+  },
+  {
     "modelName": "no/claude-opus-4-7",
     "vendorName": "Anthropic",
     "type": "price_change",

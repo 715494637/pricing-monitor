@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-04-19T07:23:11.438Z",
+  "timestamp": "2026-04-22T08:15:56.524Z",
   "prices": [
     {
       "modelName": "air/claude-haiku-4-5-20251001",
@@ -184,32 +184,6 @@
       ]
     },
     {
-      "modelName": "tp/claude-haiku-4-5-20251001",
-      "vendorName": "Anthropic",
-      "vendorIcon": "Claude.Color",
-      "inputPrice": 75,
-      "outputPrice": 375,
-      "modelRatio": 37.5,
-      "completionRatio": 5,
-      "endpoints": [
-        "anthropic",
-        "openai"
-      ]
-    },
-    {
-      "modelName": "tp/claude-opus-4-7",
-      "vendorName": "Anthropic",
-      "vendorIcon": "Claude.Color",
-      "inputPrice": 21.84,
-      "outputPrice": 125.58,
-      "modelRatio": 10.92,
-      "completionRatio": 5.75,
-      "endpoints": [
-        "anthropic",
-        "openai"
-      ]
-    },
-    {
       "modelName": "no/gemini-3-1-pro",
       "vendorName": "Google",
       "vendorIcon": "Gemini.Color",
@@ -268,32 +242,6 @@
       "inputPrice": 6,
       "outputPrice": 6,
       "modelRatio": 3,
-      "completionRatio": 1,
-      "endpoints": [
-        "anthropic",
-        "openai"
-      ]
-    },
-    {
-      "modelName": "tp/gemini-3-flash",
-      "vendorName": "Google",
-      "vendorIcon": "Gemini.Color",
-      "inputPrice": 75,
-      "outputPrice": 75,
-      "modelRatio": 37.5,
-      "completionRatio": 1,
-      "endpoints": [
-        "anthropic",
-        "openai"
-      ]
-    },
-    {
-      "modelName": "tp/gemini-3.1-pro-preview",
-      "vendorName": "Google",
-      "vendorIcon": "Gemini.Color",
-      "inputPrice": 75,
-      "outputPrice": 75,
-      "modelRatio": 37.5,
       "completionRatio": 1,
       "endpoints": [
         "anthropic",
@@ -431,32 +379,6 @@
       ]
     },
     {
-      "modelName": "tp/OpenAIgpt54Mini",
-      "vendorName": "OpenAI",
-      "vendorIcon": "OpenAI.Color",
-      "inputPrice": 75,
-      "outputPrice": 75,
-      "modelRatio": 37.5,
-      "completionRatio": 1,
-      "endpoints": [
-        "anthropic",
-        "openai"
-      ]
-    },
-    {
-      "modelName": "tp/OpenAIgpt54Nano",
-      "vendorName": "OpenAI",
-      "vendorIcon": "OpenAI.Color",
-      "inputPrice": 75,
-      "outputPrice": 75,
-      "modelRatio": 37.5,
-      "completionRatio": 1,
-      "endpoints": [
-        "anthropic",
-        "openai"
-      ]
-    },
-    {
       "modelName": "no/claude-opus-4-5",
       "vendorName": "Unknown",
       "vendorIcon": "Claude.Color",
@@ -477,71 +399,6 @@
       "outputPrice": 40,
       "modelRatio": 4,
       "completionRatio": 5,
-      "endpoints": [
-        "anthropic",
-        "openai"
-      ]
-    },
-    {
-      "modelName": "tp/claude-opus-4-6",
-      "vendorName": "Unknown",
-      "vendorIcon": "Claude.Color",
-      "inputPrice": 16,
-      "outputPrice": 80,
-      "modelRatio": 8,
-      "completionRatio": 5,
-      "endpoints": [
-        "anthropic",
-        "openai"
-      ]
-    },
-    {
-      "modelName": "tp/claude-sonnet-4-6",
-      "vendorName": "Unknown",
-      "vendorIcon": "Claude.Color",
-      "inputPrice": 13,
-      "outputPrice": 65,
-      "modelRatio": 6.5,
-      "completionRatio": 5,
-      "endpoints": [
-        "anthropic",
-        "openai"
-      ]
-    },
-    {
-      "modelName": "tp/gpt-5.4",
-      "vendorName": "Unknown",
-      "vendorIcon": "OpenAI.Color",
-      "inputPrice": 18,
-      "outputPrice": 126,
-      "modelRatio": 9,
-      "completionRatio": 7,
-      "endpoints": [
-        "anthropic",
-        "openai"
-      ]
-    },
-    {
-      "modelName": "tp/grok-4-2",
-      "vendorName": "xAI",
-      "vendorIcon": "XAI",
-      "inputPrice": 75,
-      "outputPrice": 75,
-      "modelRatio": 37.5,
-      "completionRatio": 1,
-      "endpoints": [
-        "anthropic",
-        "openai"
-      ]
-    },
-    {
-      "modelName": "tp/grok-4.1-fast",
-      "vendorName": "xAI",
-      "vendorIcon": "XAI",
-      "inputPrice": 75,
-      "outputPrice": 75,
-      "modelRatio": 37.5,
-      "completionRatio": 1,
       "endpoints": [
         "anthropic",
         "openai"
