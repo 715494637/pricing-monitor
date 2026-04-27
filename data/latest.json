@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-04-22T08:15:56.524Z",
+  "timestamp": "2026-04-27T06:14:33.217Z",
   "prices": [
     {
       "modelName": "air/claude-haiku-4-5-20251001",
@@ -63,6 +63,18 @@
       "completionRatio": 5,
       "endpoints": [
         "anthropic",
+        "openai"
+      ]
+    },
+    {
+      "modelName": "claude-opus-4-6",
+      "vendorName": "Anthropic",
+      "vendorIcon": "Claude.Color",
+      "inputPrice": 0,
+      "outputPrice": 0,
+      "modelRatio": 0,
+      "completionRatio": 0,
+      "endpoints": [
         "openai"
       ]
     },

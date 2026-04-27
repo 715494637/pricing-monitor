@@ -1,5 +1,13 @@
 [
   {
+    "modelName": "claude-opus-4-6",
+    "vendorName": "Anthropic",
+    "type": "new",
+    "inputPrice": 0,
+    "outputPrice": 0,
+    "timestamp": "2026-04-27T06:14:33.217Z"
+  },
+  {
     "modelName": "tp/claude-haiku-4-5-20251001",
     "vendorName": "Anthropic",
     "type": "removed",
